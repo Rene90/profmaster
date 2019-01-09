@@ -62,7 +62,7 @@ app.locals.title = 'Express - Generated with IronGenerator';
 
 app.use(cors({
   credentials: true,
-  origin: ['https://arcane-journey-25572.herokuapp.com/']
+  origin: ['http://localhost:3000']
 }));
 
 const index = require('./routes/index');
